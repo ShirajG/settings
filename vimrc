@@ -76,6 +76,4 @@ set t_vb=
 set tm=500
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-"open NERDTree on vim launch
-autocmd vimenter * NERDTree
 map <C-k><C-b> :NERDTreeToggle<CR>
