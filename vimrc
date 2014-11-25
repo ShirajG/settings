@@ -77,3 +77,5 @@ set tm=500
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 map <C-k><C-b> :NERDTreeToggle<CR>
+"Start vim in insert mode
+autocmd vimenter * :startinsert
