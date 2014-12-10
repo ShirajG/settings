@@ -1,9 +1,9 @@
 {
+	"folder_exclude_patterns":[".git","node_modules","bower_components"],
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
-	"font_face": "SourceCode Pro",
-	"font_size": 14,
+	"color_scheme": "Packages/User/base16-eighties.dark (SL).tmTheme",
+	"font_size": 13,
 	"ignored_packages":
 	[
 	],
@@ -22,4 +22,3 @@
 	"theme": "Spacegray Eighties.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
-
