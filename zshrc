@@ -90,4 +90,5 @@ alias b="bundle"
 alias ag="sudo apt-get"
 alias open='xdg-open'
 alias bam='rake db:drop && rake db:create && rake db:migrate'
+alias server='python -m SimpleHTTPServer'
 setxkbmap -option "altwin:ctrl_alt_win"
