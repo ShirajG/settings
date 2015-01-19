@@ -83,6 +83,7 @@ eval "$(rbenv init - zsh --no-rehash)"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
@@ -92,3 +93,7 @@ alias open='xdg-open'
 alias bam='rake db:drop && rake db:create && rake db:migrate'
 alias server='python -m SimpleHTTPServer'
 setxkbmap -option "altwin:ctrl_alt_win"
+
+stream(){
+  peerflix "$1" --vlc
+}
