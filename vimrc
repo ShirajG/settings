@@ -21,6 +21,8 @@ set so=7
 inoremap jj <ESC>
 inoremap kk <ESC>
 inoremap hh <ESC>
+"Use ctrl h to cycle tabs
+nnoremap <C-h> gT
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
 " Ignore case when searching
