@@ -30,6 +30,7 @@ alias open='xdg-open'
 alias bam='rake db:drop && rake db:create && rake db:migrate'
 alias server='python -m SimpleHTTPServer'
 alias rmd="rm -rf"
+alias h="cd -"
 setxkbmap -option "altwin:ctrl_alt_win"
 xmodmap ~/.Xmodmap
 stream(){
