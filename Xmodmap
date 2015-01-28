@@ -1,3 +1,5 @@
+! Maps CapsLock + hjkl as arrows, CapsLock + [] as home/End
+! Replace keycode on line 3 with correct key for your system
 keycode 37  = Mode_switch
 keysym h = h H Left
 keysym l = l L Right
