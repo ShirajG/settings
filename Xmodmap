@@ -1,0 +1,7 @@
+keycode 37  = Mode_switch
+keysym h = h H Left
+keysym l = l L Right
+keysym k = k K Up
+keysym j = j J Down
+keysym bracketleft = bracketleft braceleft Home
+keysym bracketright = bracketright braceright End
