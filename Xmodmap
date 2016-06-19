@@ -1,3 +1,15 @@
+clear control
+clear mod1
+clear mod4
+
+keycode 37 = Super_L NoSymbol Super_L
+keycode 64 = Control_L NoSymbol Control_L
+keycode 133 = Alt_L Meta_L Alt_L Meta_L
+
+add control = Control_L Control_R
+add mod1 = Alt_L Alt_R
+add mod4 = Super_L Super_R
+
 ! Maps CapsLock + hjkl as arrows, CapsLock + [] as home/End
 ! Replace keycode on line 3 with correct key for your system
 keycode 37  = Mode_switch
@@ -5,5 +17,3 @@ keysym h = h H Left
 keysym l = l L Right
 keysym k = k K Up
 keysym j = j J Down
-keysym bracketleft = bracketleft braceleft Home
-keysym bracketright = bracketright braceright End
